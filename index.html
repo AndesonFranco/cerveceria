@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cerveceria el ultimo y nos vamos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <h1 id="titulo-principal">Cerveceria la ultimo y nos vamos</h1>
+      <p>Donde nacen los borrachos</p>
+      <button id="btn-modo-noche">modo noche</button>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#sobre">Sobre nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-wrapper">
+      <main>
+        <section id="inicio">
+          <h2>Bienvenidos la ultima y nos vamos</h2>
+          <p>
+            somos una cerveceri artesanel donde daras tus primeros pasos acia la
+            pacion por el alcohol.
+          </p>
+          <button onclick="alert('Bienvenidos, inline')">pulsa aqui.</button>
+        </section>
+
+        <section id="menu">
+          <h2>Menú destacado</h2>
+          <p>Algunas de nuestras especialidades:</p>
+
+          <div class="menu-grid">
+            <div class="menu-item">
+              <a
+                href="https://img.freepik.com/foto-gratis/copia-espacio-vidrio-cerveza-brune-mesa_23-2148342256.jpg?semt=ais_hybrid&w=740&q=80"
+                target="_blank"
+                rel="noopener noreferrer"
+                >imagenes de la negra.</a
+              >
+              <div class="contador-cervesa">
+                <p>
+                  Cervesa pedidos hoy:
+                  <span id="contador-cervesa-negra">0</span>
+                </p>
+                <button id="btn-agregar-cervesa-negra">
+                  agregar una negra
+                </button>
+                <button id="btn-quitar-cervesa-negra">quitar una negra</button>
+              </div>
+
+              <h3>cervesa la negra tomasa</h3>
+
+              <p>mas negra y Amarga que la noche.</p>
+            </div>
+
+            <div class="menu-item">
+              <a
+                href="https://cuencalicor.com/wp-content/uploads/2022/12/cuencalicor-producto-cortes-rosado-330-ml.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >imagenes la rosadita.</a
+              >
+              <div class="contador-cervesa-rosadita">
+                <p>
+                  Cervesa pedidos hoy:
+                  <span id="contador-cervesa-rosadita">0</span>
+                </p>
+                <button id="btn-agregar-cervesa-rosadita">
+                  agregar una rosadita
+                </button>
+                <button id="btn-quitar-cervesa-rosadita">
+                  quitar una rosadita
+                </button>
+              </div>
+
+              <h3>rosadita de mi alma</h3>
+              <p>cervesa rosada como los labios de tu novia.</p>
+            </div>
+
+            <div class="menu-item">
+              <a
+                href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbO1Eu9z985FR-S6bRWq3XthlDXEDMElt0Bw&s"
+                target="_blank"
+                rel="noopener noreferrer"
+                >imagenes ligth.</a
+              >
+              <div class="contador-cervesa-ligth">
+                <p>
+                  Cervesa pedidos hoy:
+                  <span id="contador-cervesa-ligth">0</span>
+                </p>
+                <button id="btn-agregar-cervesa-ligth">
+                  agregar una ligth
+                </button>
+                <button id="btn-quitar-cervesa-ligth">quitar una ligth</button>
+              </div>
+
+              <h3>cevesa ligt</h3>
+              <p>cervesa ligera como tu amigo .</p>
+            </div>
+
+            <div class="menu-item">
+              <a
+                href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR38BdU6ZUVndiOfG8U7cr61ZPuOXVnwaUAeg&s"
+                target="_blank"
+                rel="noopener noreferrer"
+                >imagenes relax.</a
+              >
+              <div class="contador-cervesa-relax">
+                <p>
+                  Cervesa pedidos hoy:
+                  <span id="contador-cervesa-relax">0</span>
+                </p>
+                <button id="btn-agregar-cervesa-relax">
+                  agregar una relax
+                </button>
+                <button id="btn-quitar-cervesa-relax">quitar una relax</button>
+              </div>
+
+              <h3>cervesa relax</h3>
+              <p>refajo relado como tu hermano.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="sobre">
+          <h2>La ultima y nos vamosa</h2>
+          <p>
+            Bar la ultima y nos vamos es un espacio pensado en los amigos, es un
+            lugar para venir a disfrutar de una cervesa y la noche dira el resto
+          </p>
+        </section>
+
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <p>
+            Dirección: 38 # 25 - 15 calle de la borrachera<br />
+            Horario: Lunes a sábado, 10:00 p.m. – 4:00 a.m.
+          </p>
+          <p>
+            Escríbenos a:
+            <a href="tomin84@hotmail.com" class="btn-primario">
+              htomin84@hotmail.com
+            </a>
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>© 2025 La ultima Y nos vamos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
